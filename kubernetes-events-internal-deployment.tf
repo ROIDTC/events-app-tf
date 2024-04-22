@@ -10,7 +10,7 @@ resource "kubernetes_deployment" "events-internal-deployment" {
   }
 
   spec {
-    replicas                  = 1
+    replicas                  = 2
     progress_deadline_seconds = 300
     selector {
       match_labels = {
@@ -71,7 +71,7 @@ resource "kubernetes_deployment" "events-internal-deployment" {
           resources {
             limits = {
               cpu    = "0.2"
-              memory = "256Mi"
+              memory = "128Mi"
             }
           }
         }
