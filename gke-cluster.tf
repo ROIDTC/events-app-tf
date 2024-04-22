@@ -5,7 +5,7 @@ resource "google_container_cluster" "gke-cluster" {
   deletion_protection = false
 
   node_config {
-    machine_type = "e2-small"
+    machine_type = "e2-medium"
     spot = true
     oauth_scopes = [
       "https://www.googleapis.com/auth/cloud-platform",
