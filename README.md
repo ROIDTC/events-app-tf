@@ -1,10 +1,11 @@
-# SRE Capstone Terraform 
+# Terraform to deploy Events App  
 
 ## To run:
 
 Open Google Cloud Shell and clone this repository.
 
 Open terraform.tfvars file and change project_id variable to your project ID
+Change the external and internal images to your images in Docker Hub
 
 ## Then run: 
 terraform init
