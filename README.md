@@ -4,7 +4,7 @@
 
 Open Google Cloud Shell and clone this repository.
 
-Open terraform.tfvars file and change project_id variable to your project ID
+Open terraform.tfvars file and change project_id variable to your project ID. 
 Change the external and internal images to your images in Docker Hub
 
 ## Then run: 
